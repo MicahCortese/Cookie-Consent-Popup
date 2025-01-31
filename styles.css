@@ -1,0 +1,51 @@
+.container {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 20px;
+    width: 175px;
+}
+
+img {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+#xbutton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    background-color: white;
+    border: none;
+}
+
+#xbutton:hover {
+    color: red;
+}
+
+#cookiebutton {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    width: 250px;
+}
+
+#cookiebutton:hover {
+    background-color: rgb(76, 76, 76);
+}

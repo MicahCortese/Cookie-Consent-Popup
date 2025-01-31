@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Concent Popup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
-<body>
+<body onload="displayPopup()">
+
+    <div class="container">
+        <div>
+            <img src="images/cookie.png" alt="website cookie">
+            <button type="button" onclick="closePopup()" id="xbutton">&#10006;</button>
+        </div>
+        <div>
+            <p>We use cookies to improve your user experience.</p>
+            <button type="button" onclick="closePopup()" id="cookiebutton">I like Cookies</button>
+        </div>
+    </div>
     
 </body>
 </html>
